@@ -1,0 +1,6 @@
+SELECT * 
+FROM Patients
+WHERE 
+Conditions LIKE '%DIAB1%' 
+AND 
+CONDITIONS NOT LIKE '__DIAB1%';
